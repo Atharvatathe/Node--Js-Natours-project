@@ -26,6 +26,8 @@ const APIFeatures = require('../utils/apiFeatures');
 //   next();
 // };
 
+//mongo DB complete
+
 exports.aliasTopTours = (req, res, next) => {
   req.query.limit = '5';
   req.query.sort = 'ratingAverage,price';
